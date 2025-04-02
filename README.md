@@ -76,6 +76,6 @@ This guide provides instructions on how to use the FTP server management script 
 
 - Ensure that the necessary ports (e.g., 21 for FTP, 10000-10100 for passive mode) are open in your firewall settings.
 - The script assumes default configurations for `vsftpd`. Adjust the settings as needed for your environment.
-- The SSL configuration uses Let's Encrypt, which requires a valid domain name pointing to your server.
+- The SSL configuration uses Let's Encrypt, which requires a valid domain name pointing to your server and port 80 opened.
 
 By following these instructions, you can easily set up and manage an FTP server with SSL support using this script.
